@@ -14,6 +14,7 @@
                 <nav>
                     <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
                         <li><router-link to="/" class="inline-block no-underline hover:text-black hover:underline py-2 px-4" v-bind:class="(Page=='about')?'text-white':'text-black'">Home</router-link></li>
+                        <li><router-link to="/all" class="inline-block no-underline hover:text-black hover:underline py-2 px-4" v-bind:class="(Page=='about')?'text-white':'text-black'">All blogs</router-link></li>
                         <li><router-link to="/about" class="inline-block no-underline hover:text-black hover:underline py-2 px-4" v-bind:class="(Page=='about')?'text-white':'text-black'">About</router-link></li>
                     </ul>
                 </nav>

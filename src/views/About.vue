@@ -32,7 +32,7 @@
           </div>
           <div class="h-full w-96 flex flex-col justify-center">
             <div class="aspect-w-1 aspect-h-1 bg-green-200">
-              <img src="../assets/80595280_1474931042675717_5212886967766745088_n.jpg" alt="">
+              <img src="../assets/80595280_1474931042675717_5212886967766745088_n.jpg" alt="" loading="lazy">
             </div>
           </div>
         </div>
