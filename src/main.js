@@ -26,7 +26,7 @@ const blogsCollection = db.collection('blogs')
 
 export const loadBlogs = () => {
     const blogs = ref([])
-    const close = blogsCollection.onSnapshot(snapshot => {
+    const close = blogsCollection.orderBy('date').onSnapshot(snapshot => {
       blogs.value = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }))
     })
     onUnmounted(close)
