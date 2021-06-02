@@ -32,3 +32,7 @@ export const loadBlogs = () => {
     onUnmounted(close)
     return blogs
 }
+
+export const createBlog = blog => {
+  return blogsCollection.add(blog)
+}
